@@ -32,14 +32,15 @@ ad-homelab/
 │ ├── task0-preparation.md
 │ ├── task1-ad-installation.md
 │ └── task2-users-ou-groups.md
-├── diagrams/
-│ └── ad-lab-diagram.png
 └── scripts/
-└── create-users.ps1
+  └── README.md
 
 
 ## Progress
 - [x] Task 0: Lab preparation and VM setup
 - [x] Task 1: Active Directory installation and domain setup
 - [x] Task 2: OU structure, users and security groups
-- [ ] Task 3: Group Policy basics
+- [x] Task 3: Group Policy configuration
+  - Network drive mapping (GPO and logon script)
+  - Desktop wallpaper policy
+  - Domain password and account lockout policy
